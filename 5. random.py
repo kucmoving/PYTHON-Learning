@@ -20,8 +20,11 @@ for letter in letters:
     password += random.choice(letters)
 print(password)
 
-#random letter in list
+#隨機抽選，特定次數 ##random 下可以直接做choice(letters)
 letters = ["a", "b", "c", "d", "e", "f", "g", "h", "i"]
+password_letters = [choice(letters) for _ in range(randint(8, 10))]
+
+#表內次序調換
 random.shuffle(letters)
 print(letters)
 
