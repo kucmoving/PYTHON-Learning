@@ -1,5 +1,6 @@
 ## First!!!we have to import random!! import random 插入random 配件
 import random
+from random import choice, randint, shuffle
 
 #random number
 random_integer = random.randint(1,10)#from 1 - 10
