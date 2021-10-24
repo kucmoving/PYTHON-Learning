@@ -1,5 +1,5 @@
 #匯入並設置object
-import tkinter import *
+import tkinter
 
 ##############可預設顏色、數值
 from tkinter import *
