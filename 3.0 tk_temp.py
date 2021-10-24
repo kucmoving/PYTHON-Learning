@@ -15,7 +15,7 @@ LONG_BREAK_MIN = 20
 
 
 ############### UI setup
-window = tkinter.TK()
+window = tkinter.Tk()
 window.title("My First GUI Program")
 window.minsize(width=500, height=300)
 window.config(padx=20, pady=20, bg=YELLOW)
