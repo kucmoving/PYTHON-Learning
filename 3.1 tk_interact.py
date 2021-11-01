@@ -12,7 +12,7 @@ calculate_button.grid(column=1, row=2)
 #3. 輸入方格
 miles_input = Entry(width=35)
 website_entry.focus() ###會出現藍框focus
-email_entry.inser(0, "angela@gmail.com")#方格會出現預設文字
+email_entry.insert(0, "angela@gmail.com")#方格會出現預設文字
 
 #4. 提示箱
 from tkinter import messagebox
